@@ -1,4 +1,4 @@
-SMART LIGHT AGENT
+//SMART LIGHT AGENT
  
 is_day_light = input("Is the daylight there:?").lower()
 is_human_there = input("Is the human there:?").lower()
@@ -9,7 +9,7 @@ else:
 LIGHT OFF
 
 
-VEHICLE AGENT
+//VEHICLE AGENT
 is_vehicle_there = input("Vehicle coming ? ").lower()
 is_toll_paid = input("Toll paid ? ").lower()
 if is_vehicle_there == "yes" or is_vehicle_there == "y"  and is_toll_paid == "yes" or is_toll_paid == "y":

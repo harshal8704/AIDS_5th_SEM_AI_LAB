@@ -1,0 +1,19 @@
+SMART LIGHT AGENT
+ 
+is_day_light = input("Is the daylight there:?").lower()
+is_human_there = input("Is the human there:?").lower()
+if is_day_light == "no" or is_day_light == "n"  and is_human_there == "yes" or is_human_there == "y":
+    print("LIGHT ON")
+else:
+    print("LIGHT OFF")
+LIGHT OFF
+
+
+VEHICLE AGENT
+is_vehicle_there = input("Vehicle coming ? ").lower()
+is_toll_paid = input("Toll paid ? ").lower()
+if is_vehicle_there == "yes" or is_vehicle_there == "y"  and is_toll_paid == "yes" or is_toll_paid == "y":
+    print("GATE OPEN")
+else:
+    print("GATE  CLOSE")
+GATE OPEN
